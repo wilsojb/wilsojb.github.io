@@ -56,7 +56,6 @@ $(document).ready(function(){
     }
     pAnchor.removeClass("highlight"); 
     aAnchor.addClass("highlight");
-    dd.fadeOut(500);
     projects.fadeOut(500, function(){
       about.fadeIn(500);  
     });
