@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:32px;
 }
 
 h2 {
@@ -34,7 +34,6 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
   text-decoration:none;
 }
 
@@ -99,6 +98,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  font-size: 18px;
 }
 
 header ul {
@@ -162,7 +162,8 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom: 50px;
+  display: none;
 }
 
 small {
@@ -181,6 +182,14 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+a.tab {
+  color: #777;
+}
+
+.highlight {
+  font-weight: bold;
 }
 
 @media print, screen and (max-width: 960px) {
