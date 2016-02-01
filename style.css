@@ -297,3 +297,22 @@ ol.resume {
 p {
   margin-top: 5px;
 }
+
+.hrt {
+  content:url("images/hrt.png");
+  width: 50px;
+}
+
+h3.snapsite {
+  font-size: 20px;
+  color: #2c405b;
+  /*font-family: 'Source Sans Pro';*/
+  font-family: 'Helvetica';
+  text-shadow: 1px 1px;
+  font-weight: normal;
+}
+
+.tripexpert {
+  content:url("images/tripexpert.png");
+  width: 45px;
+}
