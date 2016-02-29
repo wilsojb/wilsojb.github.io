@@ -1,2 +1,2 @@
 # wilsojb.me
-My corner of the web. Made possible w/ https://pages.github.com/. 
+My corner of the web hosted by https://pages.github.com/. 
