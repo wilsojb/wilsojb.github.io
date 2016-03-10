@@ -19,7 +19,7 @@
         <a href="" ng-click="transition('home')"><h1>wilsojb</h1></a>
         <p class="view"><a href="" ng-class="{'tab': !active['home'], 'tab-bold': active['home']}" ng-click="transition('home')">Home</a></p>
         <p class="view"><a href="" ng-class="{'tab': !active['about'], 'tab-bold': active['about']}" ng-click="transition('about')">About</a></p>
-        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Projects</a></p>
+        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Code</a></p>
         <!-- <p class="view"><a href="" ng-class="{'tab': !active['reading'], 'tab-bold': active['reading']}" ng-click="transition('reading')">Reading</a></p> -->
         <p class="view">
           <a target="_blank" href="http://twitter.com/wilsojb/" class="tab" id="twitter"><i class="fa fa-twitter"></i></a>
@@ -126,10 +126,11 @@
 
         <h3>Pdelab</h3>
         <p>
-          An object oriented framework for solving and analyzing PDEs. Homegrown solvers, graphing utilities, and
-          examples that came out of <a href="http://dc.lib.unc.edu/cdm/ref/collection/etd/id/3322" target="_blank" >
-          grad school</a>. The code can be found on <a target="_blank" href="http://github.com/wilsojb/pdelab">github</a>
-          (mostly C++ w/ Python glue).
+          An object oriented framework for solving and analyzing PDEs. This project grew organically while I worked on
+          my <a href="http://dc.lib.unc.edu/cdm/ref/collection/etd/id/3322" target="_blank">graduate degree</a>. The goal
+          of the framework was to abstract away the mechanics and other "lower level" code needed to solve PDEs so the
+          researcher can spend more time focusing on their solver (i.e. their "business logic"). The code can be found on
+          <a target="_blank" href="http://wilsojb.io/pdelab">github</a>.
         </p>
       </section>
 
