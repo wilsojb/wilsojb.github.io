@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+/*html {
+  background-color: 	#dbd7d2
+}*/
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -301,6 +305,10 @@ p {
 .hrt {
   content:url("images/hrt.png");
   width: 50px;
+}
+
+p.icon-header {
+  margin-bottom: 5px;
 }
 
 h3.snapsite {

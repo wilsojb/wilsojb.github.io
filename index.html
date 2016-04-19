@@ -19,14 +19,17 @@
         <a href="" ng-click="transition('home')"><h1>wilsojb</h1></a>
         <p class="view"><a href="" ng-class="{'tab': !active['home'], 'tab-bold': active['home']}" ng-click="transition('home')">Home</a></p>
         <p class="view"><a href="" ng-class="{'tab': !active['about'], 'tab-bold': active['about']}" ng-click="transition('about')">About</a></p>
-        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Code</a></p>
-        <!-- <p class="view"><a href="" ng-class="{'tab': !active['reading'], 'tab-bold': active['reading']}" ng-click="transition('reading')">Reading</a></p> -->
+        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Recent</a></p>
         <p class="view">
           <a target="_blank" href="http://twitter.com/wilsojb/" class="tab" id="twitter"><i class="fa fa-twitter"></i></a>
           <a target="_blank" href="http://instagram.com/wilsojb/" class="tab" id="instagram"><i class="fa fa-instagram"></i></a>
           <a target="_blank" href="http://github.com/wilsojb/" class="tab" id="github"><i class="fa fa-github"></i></a>
+          <a target="_blank" href="https://www.facebook.com/wilsojb" class="tab" id="fb"><i class="fa fa-facebook"></i></a>
+        </p>
+        <p class="view">
           <!-- <a target="_blank" href="https://medium.com/@wilsojb" class="tab" id="medium"><i class="fa fa-medium"></i></a> -->
           <a target="_blank" href="http://linkedin.com/in/wilsojb/" class="tab" id="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://angel.co/wilsojb" class="tab" id="angel"><i class="fa fa-angellist"></i></a>
           <a target="_blank" href="resume.html" class="tab" id="resume"><i class="fa fa-paperclip"></i></a>
         </p>
       </header>
@@ -35,17 +38,19 @@
         <img ng-src="images/home.jpg"/>
         <h3>Hello</h3>
         <p>
-          I'm Joshua Wilson. I'm a project manager and programmer that lives in Brookyn, NY
-          but hails from El Dorado, AR. <a href="" class="user-mention">@wilsojb</a> is my handle on
-          many services ('wilsonjb' was already taken). Some of my favorite things include bbq, snowboarding,
-          <a target="_blank" href="http://www.typography.com/blog/introducing-operator">this font</a>, and
-          <a target="_blank" href="http://xph.us/2013/01/22/inbox-zero-for-life.html">this blog post</a>.
+          I'm Josh Wilson. I'm a programmer and project manager that hails from El Dorado (el doe-ray'-doe), AR
+          but currently lives and works in Brookyn, NY. <a href="" class="user-mention">@wilsojb</a> is my handle on
+          many services (when I signed up for gmail in 2005 'wilsonjb' was already taken!). Some of my
+          favorite things include bbq, snowboarding,
+          <a target="_blank" href="http://www.typography.com/blog/introducing-operator">this font</a>,
+          <a target="_blank" href="http://xph.us/2013/01/22/inbox-zero-for-life.html">this blog post</a>, and
+          <a target="_blank" href="http://www.codersatwork.com/">this book</a>.
         </p>
-
         <p>
-          While you're here, take a look at what's been <a href="" ng-click="transition('projects')">keeping me busy</a>. If you have
-          something you'd like to build and you think I could help, then please reach out. I'm currently interested in
-          opportunities involving data science, mobile development, and infrastructure.
+          While you're here, take a look at what's been <a href="" ng-click="transition('projects')">keeping me busy</a>.
+          If you have something you'd like to build and you think I could help, then please reach out.
+          I'm currently interested in opportunities involving machine learning, mobile development, and
+          backend infrastructure.
         </p>
 
         <h3>Contact me</h3>
@@ -63,40 +68,75 @@
         </p>
         <h3>Programming</h3>
         <p>
-          I’ve been writing code for over a decade. Over that time many languages have had the dubious
-          distinction of being my “main” language. I cut my teeth on TI-BASIC in high school and (more formally)
-          on Java in undergrad; I wrote a ton of C++ and Fortran90 for my graduate thesis, hacked Perl and Bash scripts
-          together for Wall Street, and eventually fell for Python. Sys admining a MongoDB cluster turned me on to Javascript
-          and, currently, I’m writing hybrid mobile apps using Ionic, AngularJS, and Cordova. It’s been a humbling experience.
+          I’ve been writing code for over a decade. Over that time many languages have had the
+          dubious distinction of being my “main” language. I cut my teeth on TI-BASIC in high
+          school and (more formally) on Java in undergrad; I wrote a ton of C++ and Fortran90
+          for my graduate thesis, hacked Perl and Bash scripts together for Wall Street, and
+          eventually became a Proud <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" target="_blank">Pythonista</a>.
+          Sys admining a MongoDB cluster turned me on to Javascript which, in turn, exposed me
+          to the rapidly evolving world of frontend tooling and hybrid mobile development. Lately,
+          I've been writing hybrid mobile apps using <a href="http://ionicframework.com/" target="_blank">Ionic</a>,
+          AngularJS, and Cordova while taking night classes on
+          <a href="https://generalassemb.ly/education/data-science" target="_blank">machine learning</a>.
         </p>
         <p>
-          Python is still my area of expertise, but I'm constantly learning more about today's client-side web as
-          well as Android and iOS integration. I used to be fairly dogmatic about object-oriented design (as is probably anyone
-          that started with Java), now I favor a more balanced approach.
+          Python is still my area of expertise, but I'm constantly learning more about today's
+          client-side web as well as Android and iOS integration. While I'm good at implementing the
+          layers needed to make things work, I am not comfortable with buzzwords like
+          <a href="http://andyshora.com/full-stack-developers.html" target="_blank">"Full-stack Developer"</a>.
+          For the purposes of classification, the words "backend engineer", "internal tools developer",
+          and "casual mobile developer" probably describe me the best.
+        </p>
+        <p>
+          I used to be fairly dogmatic about object-oriented design (as is probably anyone that started with Java),
+          but now I favor a more balanced approach. I value 80 char limits, simple interfaces, asynchronous libraries,
+          and the spectrum between writing DRY architectures and
+          <a href="http://www.joelonsoftware.com/items/2009/09/23.html" target="_blank">getting things done</a>.
+          One of the most valuable skills a person can have is the ability to learn, closely followed by the ability to know
+          when you don't know something. I try to keep this in mind when starting a new project.
         </p>
 
         <h3>I like to build things</h3>
         <p>
-          I've built mobile apps for both Android and iOS, written internal tools for a top hft firm, released
-          a pde solver while in grad. school, and even designed a thrust sensor for a rocket. I've dabbled
-          in home brewing, once constructed a trebuchet, and enjoy fixing a 1999 Jeep Cherokee on the regular.
+          I've built apps for both mobile and desktop, hacked on web crawlers, written internal tools for
+          a top hft firm, and even designed a thrust sensor for a rocket. I've dabbled in home brewing, once
+          constructed a trebuchet, and enjoy (continually) fixing my 1999 Jeep Cherokee. I grew up in a house
+          full of tools, half-finished projects, and DIY attitudes, which has definitely shaped who I am today.
+          In my experience, the two most important aspects
+          of building (almost) anything is to view
+          <a href="http://a16z.com/2014/04/16/shipping-is-a-feature-some-guiding-principals-for-people-that-build-things/"
+          target="_blank">
+            shipping as a feature
+          </a> and to remember to have fun.
         </p>
         <p>
-          I also like to help others build things. Working with a team of programmers is always fun and rewarding. I
-          appreciate good code reviews, testing, and a rock solid release process. Not all problems are techincal
-          in nature, so neither are all solutions. If you have something you'd like to build and you think I could
-          help, then please <a href="" ng-click="transition('home')">reach out</a>.
+          I also like to help others build things. I've advised startups, managed freelancers, and worked in tight-knit
+          teams of programmers. Each of these areas have challenges and rewards. I appreciate thoughtful code reviews,
+          sensible testing, and a pragmatic release process. Not all problems are technical in nature, so neither are
+          all solutions. If you have something you'd like to build and you think I could help, then please
+          <a href="" ng-click="transition('home')">reach out</a>.
         </p>
+
       </section>
 
       <section ng-show="show['projects']">
+        <h3>Wikipedia Philosophy Challenge</h3>
         <p>
+          Clicking on the first link in the main text of a Wikipedia article, and then repeating the
+          process for subsequent articles, usually eventually gets you to the Philosophy article. I
+          wrote some <a href="http://wilsojb.io/philosophy-challenge/", target="_blank">code</a> in
+          Python that shows this is true. For more info, check out the actual
+          <a href="https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy" target="_blank">Wikipedia page</a>
+          on this subject!
+        </p>
+
+        <p class="icon-header">
           <a class="tripexpert" target="_blank" href="http://tripexpert.com"></a>
         </p>
         <p>
-          An app for iOS and Android built using Cordova, AngularJS, and the Ionic framework
-          that complements <a href="http://tripexpert.com" target="_blank">www.tripexpert.com</a>.
-          Coming Spring 2016.
+          I'm developing a cross-platform mobile app (AngularJS, HTML/CSS,
+          Cordova) and its backend service (Python, MongoDB) that complements
+          <a href="http://tripexpert.com" target="_blank">www.tripexpert.com</a>.
         </p>
         <a target="_blank" href="http://snapsite.io"><h3 class="snapsite">snapsite.io</h3></a>
         <p>
@@ -107,16 +147,18 @@
           <a target="_blank" href="http://snapsite.io"><img ng-src="images/snapsite-thumbnail.png"/></a>
         </p>
 
-        <p>
+        <p class="icon-header">
           <a class="hrt" href="http://hudson-trading.com" target="_blank"></a>
         </p>
-
         <p>
-          I spent most of my time developing internal tools in Python, MongoDB, Perl, and Bash, as the company
-          grew from 60-100+ employees. This is where I learned everything I know about systems programming,
-          test-driven development lifecycles, and the data pipeline. I played an integral role in converting a
-          legacy code base into a library of tools that helped their business internationally scale. My day consisted
-          of reviewing pull requests, committing quick fixes and new features, and dealing with the occasional market outage.
+          I spent most of my time developing internal tools and services in Python
+          and MongoDB, as the company grew from 60-100+ employees. This is
+          where I learned everything I know about systems programming,
+          test-driven development lifecycles, and the data pipeline. I played an
+          integral role in converting a legacy code base into a library of tools that
+          helped their business internationally scale. My day consisted of
+          reviewing pull requests, committing quick fixes and new features, and
+          dealing with the occasional market outage.
         </p>
 
         <h3>Pdelab</h3>
@@ -127,10 +169,6 @@
           researcher can spend more time focusing on their solver (i.e. their "business logic"). The code can be found on
           <a target="_blank" href="http://wilsojb.io/pdelab">github</a>.
         </p>
-      </section>
-
-      <section ng-show="show['reading']">
-        reading
       </section>
 
     </div>
