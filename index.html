@@ -19,7 +19,7 @@
         <a href="" ng-click="transition('home')"><h1>wilsojb</h1></a>
         <p class="view"><a href="" ng-class="{'tab': !active['home'], 'tab-bold': active['home']}" ng-click="transition('home')">Home</a></p>
         <p class="view"><a href="" ng-class="{'tab': !active['about'], 'tab-bold': active['about']}" ng-click="transition('about')">About</a></p>
-        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Recent</a></p>
+        <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Code</a></p>
         <p class="view">
           <a target="_blank" href="http://twitter.com/wilsojb/" class="tab" id="twitter"><i class="fa fa-twitter"></i></a>
           <a target="_blank" href="http://instagram.com/wilsojb/" class="tab" id="instagram"><i class="fa fa-instagram"></i></a>
@@ -39,7 +39,7 @@
         <h3>Hello</h3>
         <p>
           I'm Josh Wilson. I'm a programmer and project manager that hails from El Dorado (el doe-ray'-doe), AR
-          but currently lives and works in Brookyn, NY. <a href="" class="user-mention">@wilsojb</a> is my handle on
+          but currently lives in Brookyn, NY. <a href="" class="user-mention">@wilsojb</a> is my handle on
           many services (when I signed up for gmail in 2005 'wilsonjb' was already taken!). Some of my
           favorite things include bbq, snowboarding,
           <a target="_blank" href="http://www.typography.com/blog/introducing-operator">this font</a>,
@@ -47,10 +47,10 @@
           <a target="_blank" href="http://www.codersatwork.com/">this book</a>.
         </p>
         <p>
-          While you're here, take a look at what's been <a href="" ng-click="transition('projects')">keeping me busy</a>.
+          While you're here, take a look at what's been 
+          <a href="" ng-click="transition('projects')">keeping me busy</a>.
           If you have something you'd like to build and you think I could help, then please reach out.
-          I'm currently interested in opportunities involving machine learning, mobile development, and
-          backend infrastructure.
+          I'm currently very interested in opportunities involving data visualization and machine learning.
         </p>
 
         <h3>Contact me</h3>
@@ -60,7 +60,7 @@
           <a target="_blank" href="http://instagram.com/wilsojb/">instagram</a>, and
           <a target="_blank" href="https://github.com/wilsojb">github</a>. If you are going
           to read my <a target="_blank" href="resume.html">resume</a>, you should also check
-          <a target="_blank" href="https://linkedin.com/in/wilsojb">Linkedin</a>.
+          <a target="_blank" href="https://linkedin.com/in/wilsojb">linkedin</a>.
         </p>
       </section>
 
@@ -120,6 +120,29 @@
       </section>
 
       <section ng-show="show['projects']">
+        <p class="icon-header">
+          <a class="enigma" target="_blank" href="http://enigma.io/"></a>
+        </p>
+        <p>
+          Data Engineering! ETL! 
+        </p>
+
+        <p class="icon-header">
+          <a class="general-assembly" target="_blank" href="https://generalassemb.ly/education/data-science"></a>
+        </p>
+        <p>
+          Machine Learning @ GA. 10 week part-time class. Here is my final project. Describe final project. 
+        </p>
+
+        <h3>S&amp;J Wedding Website</h3>
+        <p>
+          S&amp;J had some unique ideas in mind for their wedding website. For starters, they wanted a 
+          custom login for each of their guests...
+        </p>
+        <p>
+          <a target="_blank" href="http://www.sam-and-jillian.com"><img ng-src="images/sketch.jpg"/></a>
+        </p>
+
         <h3>Wikipedia Philosophy Challenge</h3>
         <p>
           Clicking on the first link in the main text of a Wikipedia article, and then repeating the
@@ -134,10 +157,11 @@
           <a class="tripexpert" target="_blank" href="http://tripexpert.com"></a>
         </p>
         <p>
-          I'm developing a cross-platform mobile app (AngularJS, HTML/CSS,
-          Cordova) and its backend service (Python, MongoDB) that complements
+          I developed a cross-platform hybrid mobile app (AngularJS, Cordova) and its backend service 
+          (Python, MongoDB) that complements
           <a href="http://tripexpert.com" target="_blank">www.tripexpert.com</a>.
         </p>
+
         <a target="_blank" href="http://snapsite.io"><h3 class="snapsite">snapsite.io</h3></a>
         <p>
           Simple (temporary) website deployment from the command line. An experiment that used Flask,

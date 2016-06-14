@@ -324,3 +324,13 @@ h3.snapsite {
   content:url("images/tripexpert.png");
   width: 45px;
 }
+
+.general-assembly {
+  content:url("images/ga.png");
+  width: 45px;
+}
+
+.enigma {
+  content:url("images/enigma.png");
+  width: 45px;
+}
