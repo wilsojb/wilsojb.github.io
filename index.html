@@ -27,6 +27,7 @@
           <a target="_blank" href="https://www.facebook.com/wilsojb" class="tab" id="fb"><i class="fa fa-facebook"></i></a>
         </p>
         <p class="view">
+          <a target="_blank" href="http://stackoverflow.com/users/6552232/wilsojb" class="tab" id="stackoverflow" aria-hidden="true"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
           <!-- <a target="_blank" href="https://medium.com/@wilsojb" class="tab" id="medium"><i class="fa fa-medium"></i></a> -->
           <a target="_blank" href="http://linkedin.com/in/wilsojb/" class="tab" id="linkedin"><i class="fa fa-linkedin"></i></a>
           <a target="_blank" href="https://angel.co/wilsojb" class="tab" id="angel"><i class="fa fa-angellist"></i></a>
@@ -117,7 +118,7 @@
         </p>
       </section>
 
-      <section ng-show="show['projects']">
+      <section ng-show="show['projects']" id="projects">
         <p class="icon-header">
           <a class="enigma" target="_blank" href="http://enigma.io/"></a>
         </p>
@@ -126,17 +127,28 @@
         </p>
 
         <p class="icon-header">
-          <a class="general-assembly" target="_blank" href="https://generalassemb.ly/education/data-science"></a>
+          <a class="general-assembly" target="_blank" href="https://generalassemb.ly"></a>
         </p>
         <p>
-          Machine Learning @ GA. 10 week part-time class. Here is my final project. Describe final project.
-          <a href="https://generalassemb.ly/education/data-science" target="_blank">machine learning</a>.
+          I took an 11 week machine learning course from <a target="_blank" href="https://generalassemb.ly">General Assembly</a>
+          and walked away a jupyter notebook and scikit-learn aficionado. My final project involved clustering articles from my
+          <a target="_blank" href="https://getpocket.com">getpocket.com</a> account using kmeans and a tf-idf vectorizor. I used
+          <a target="_blank" href="https://www.diffbot.com/">diffbot</a> for most of the ETL. All of the code can be found on
+          <a target="_blank" href="https://github.com/wilsojb/getpocket-kmeans-clustering">github</a>.
+        </p>
+        <p>
+          <img ng-src="images/cluster.png"/>
         </p>
 
         <h3>S&amp;J Wedding Website</h3>
         <p>
-          S&amp;J had some unique ideas in mind for their wedding website. For starters, they wanted a
-          custom login for each of their guests.
+          S&amp;J had some unique ideas in mind for their wedding website. Both being outgoing extroverts that
+          love to entertain, they wanted their wedding website to reflect the awesome wedding weekend they
+          had planned for their friends and families. Simply put, generic wedding website builders like
+          <a target="_blank" href="https://www.theknot.com/">the knot</a> weren't gonna cut it. I used <b>M</b>ongoDB,
+          <b>E</b>xpress, <b>A</b>ngularJS, and <b>N</b>ode.js for the stack and integrated
+          <a target="_blank" href="https://auth0.com/">Auth0</a> on top of it to provide a custom login for each of their
+          guests.
         </p>
         <p>
           <a target="_blank" href="http://www.sam-and-jillian.com"><img ng-src="images/sketch.jpg"/></a>
@@ -183,6 +195,16 @@
           reviewing pull requests, committing quick fixes and new features, and
           dealing with the occasional market outage.
 
+          <ul class="hrtul">
+            <li><a target="_blank" href="http://www.hudson-trading.com/">http://www.hudson-trading.com/</a></li>
+            <li>
+              <a target="_blank" href="http://blogs.wsj.com/moneybeat/2014/10/15/inside-hudson-river-the-firm-that-does-5-of-all-stock-trading/">
+                http://blogs.wsj.com/moneybeat/2014/10/15/inside-hudson-river-the-firm-that-does-5-of-all-stock-trading/
+              </a>
+            </li>
+            <li><a target="_blank" href="https://twitter.com/wehrtyou">@wehrtyou</a></li>
+          </ul>
+
           <!-- TODO - where I eventually -->
           <!-- became a lead developer and spokesperson of a  -->
 
@@ -195,6 +217,9 @@
           of the framework was to abstract away the mechanics and other "lower level" code needed to solve PDEs so the
           researcher can spend more time focusing on their solver (i.e. their "business logic"). The code can be found on
           <a target="_blank" href="http://wilsojb.io/pdelab">github</a>.
+        </p>
+        <p>
+          <img ng-src="images/grad.png"/>
         </p>
       </section>
 
