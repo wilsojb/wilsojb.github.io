@@ -226,6 +226,16 @@ ol.resume {
   font-weight: bolder;
 }
 
+.hrtul {
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+.hrtul > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -322,5 +332,15 @@ h3.snapsite {
 
 .tripexpert {
   content:url("images/tripexpert.png");
+  width: 45px;
+}
+
+.general-assembly {
+  content:url("images/ga.png");
+  width: 45px;
+}
+
+.enigma {
+  content:url("images/enigma.png");
   width: 45px;
 }
