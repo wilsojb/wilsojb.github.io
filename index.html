@@ -22,51 +22,65 @@
         <p class="view"><a href="" ng-class="{'tab': !active['projects'], 'tab-bold': active['projects']}" ng-click="transition('projects')">Projects</a></p>
         <p class="view">
           <a target="_blank" href="http://twitter.com/wilsojb/" class="tab" id="twitter"><i class="fa fa-twitter"></i></a>
-          <a target="_blank" href="http://instagram.com/wilsojb/" class="tab" id="instagram"><i class="fa fa-instagram"></i></a>
+          <!-- <a target="_blank" href="http://instagram.com/wilsojb/" class="tab" id="instagram"><i class="fa fa-instagram"></i></a> -->
           <a target="_blank" href="http://github.com/wilsojb/" class="tab" id="github"><i class="fa fa-github"></i></a>
-          <a target="_blank" href="https://www.facebook.com/wilsojb" class="tab" id="fb"><i class="fa fa-facebook"></i></a>
-        </p>
-        <p class="view">
+          <!-- <a target="_blank" href="https://www.facebook.com/wilsojb" class="tab" id="fb"><i class="fa fa-facebook"></i></a> -->
           <a target="_blank" href="http://stackoverflow.com/users/6552232/wilsojb" class="tab" id="stackoverflow" aria-hidden="true"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+        </p>    
+        <p class="view">
+          
           <a target="_blank" href="http://linkedin.com/in/wilsojb/" class="tab" id="linkedin"><i class="fa fa-linkedin"></i></a>
           <a target="_blank" href="https://angel.co/wilsojb" class="tab" id="angel"><i class="fa fa-angellist"></i></a>
-          <a target="_blank" href="resume.html" class="tab" id="resume"><i class="fa fa-paperclip"></i></a>
+          <!-- <a target="_blank" href="resume.html" class="tab" id="resume"><i class="fa fa-paperclip"></i></a> -->
         </p>
       </header>
 
       <section ng-show="show['home']">
         <img style="margin-bottom: 5%" ng-src="images/josh.jpeg"/>
         <p>
-          Joshua Wilson is a New York based software engineer.
+            Josh Wilson is an engineering manager based out of Little Rock, Arkansas.
         </p>
 
         <p>
-          From 2016 to 2018, Josh worked at Enigma Technologies where he built data-intensive applications for fortune 50 enterprises. His role gradually shifted 
-          to building a new team, called "Envoy", that was responsible for integrating Enigma's data products into, and across, extremely diverse IT landscapes.
+            In 2018, Josh joined <a target="_blank" href="https://www.adaptivemgmt.com/">DataMonster</a> to help build their data ingestion
+            capabilities and capacity. Come work with us! My team needs <a target="_blank" href="https://boards.greenhouse.io/adaptivemanagement">data engineers and analysts</a>!
         </p>
 
         <p>
-          In 2014 he founded DoubleDoss Labs, which focuses on product development for early stage startups. He's launched websites, built a couple mobile apps, 
-          processed a bunch of data, and advised entrepreneurs under this name.
+            From 2016 to 2018, Josh worked at Enigma where he built data-intensive applications for fortune 50 
+            enterprises. His role gradually shifted to building a team that integrated Enigma's data products across extremely diverse IT landscapes.
+        </p>
+
+        <p>
+            In 2014 he founded DoubleDoss Labs, which focuses on product development, technology solutions, and operations for early stage startups and small businesses.
         </p>
         <p>
-          From 2011 to 2015, Josh worked at Hudson River Trading where he built global trading and risk systems and worked on a variety of projects 
-          ranging from data visualizations to internal tooling to devops.
+            From 2011 to 2015, Josh worked for Hudson River Trading where he helped build
+            and operate a global trading system. Responsiblities ranged widely from internal tooling to DevOps to data visualizations. He even actively traded
+            securities as a registered representative on the open markets.
         </p>
         <p>
-          Josh holds a M.S. in Physics from the University of North Carolina in Chapel Hill, NC. There he researched computational and analytical solutions 
-          to nonlinear PDEs and, more generally, scientific computing. Josh also holds a B.A. in Physics and Computer Science from Hendrix College in Conway, AR.
+            Josh holds a M.S. in Physics from the University of North Carolina in Chapel Hill, NC. There he researched computational and analytical solutions 
+            to nonlinear PDEs and, more generally, scientific computing. Josh also holds a B.A. in Physics and Computer Science from Hendrix College in Conway, AR.
         </p>
         <p>
-          Josh grew up in a house full of tools, ever-changing hobbies, and DIY attitudes that shaped how he approaches his work today.
+            Josh grew up in a house full of tools, ever-changing hobbies, and DIY attitudes that shaped how he approaches his work today.
         </p>
       </section>
 
       <section ng-show="show['about']">
         <p>
+        <h3>DataMonster</h3>
+        Engineering Manager<br>
+        Senior Data Engineer<br>
+        New York, NY &amp; Little Rock, AR<br>
+        2018 - present<br>
+        </p>
+
+        <p>
         <h3>Enigma Technologies</h3>
-        Engineering Manager, Envoy<br>
-        Sr. Software Engineer, Data<br>
+        Engineering Manager<br>
+        Data Engineer<br>
         New York, NY<br>
         2016 - 2018<br>
       </p>
@@ -80,7 +94,7 @@
 
       <p>
         <h3>TripExpert</h3>
-        Software Engineer, Mobile<br>
+        Software Engineer (Mobile)<br>
         New York, NY<br>
         2015<br>
       </p>
@@ -94,7 +108,7 @@
 
       <p>
         <h3>Hudson River Trading</h3>
-        Software Engineer, Operations<br>
+        TradeOps Developer<br>
         New York, NY<br>
         2011 - 2015<br>
       </p>
@@ -102,7 +116,6 @@
       <p>
         <h3>University of North Carolina</h3>
         Graduate Research Assistant<br>
-        Laboratory Instructor<br>
         Chapel Hill, NC<br>
         2008 - 2010<br>
       </p>
@@ -111,7 +124,6 @@
         <h3>Hendrix College</h3>
         Orientation Coordinator<br>
         Undergraduate Research Assistant<br>
-        Physics &amp; Math Tutor &amp; TA<br>
         Conway, AR<br>
         2005 - 2008<br>
       </p>
@@ -119,6 +131,20 @@
 
       <section ng-show="show['projects']" id="projects">
 
+        <h3>Nicholas Barnes, MD</h3>
+        <p>
+            Nick runs a private practice and needed a way to get the word out. He was looking
+            for a clean, simple design that would load quickly on any device or browser. So I 
+            built him a site using <a target="_blank" href="https://gohugo.io/">Hugo</a> (my 
+            new favorite static site generator!) and S3.
+        </p>
+        <p>
+            <a target="_blank" href="http://nicholasbarnesmd.com/">
+                <img ng-src="images/nick.jpg" />
+            </a>
+        </p>
+
+        <br>
         <h3>S&amp;J Wedding Website #2</h3>
         <p>
             This time around the "S&amp;J" are my wife and I! This site's purpose was mostly to
